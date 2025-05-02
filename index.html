@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Personal Portfolio</title>
+   </head>
+   <body>
+     <nav id="navbar">
+       <header>Navbar</header>
+       <p><a class="nav-link" href="#me">About</a></p>
+       <p><a class="nav-link" href="#projects">Projects</a></p>
+       <p><a class="nav-link" href="#section3">Contact</a></p>
+       </nav>
+     <section id="welcome-section">
+       <h1 id="me"> Hello my name is Juan </h1>
+</section>
+<section id="projects">
+  <div class="project-tile">
+  <a>Project 1</a>
+  <a>Project 2</a>
+  <a>Project 3</a>
+  <a> Project 4</a>
+  </div>
+  </section>
+  <section id="section3">
+<h2>Feel free to contact me</h2>
+<a id="profile-link" target="_blank"> Facebook</a>
+<a id="profile-link" target="_blank">Github</a>
+<a id="profile-link" target="_blank">Email</a>
+</section>
+CSS
+#me{
+  text-align:center;
+  background-color:
+  grey; 
+  padding:10px;
+}
+#navbar{
+  display:flex;
+  position:fixed;
+  flex-direction:row;
+  top:0px;
+  gap:40px;
+  justify-content:center;
+}
+.nav-link{
+  text-align:center;
+}
+.project-tile{
+  
+padding:40px;
+margin:10px;
+}
+h2{
+  
+}
+#profile-link{
+text-align:center;
+margin:30px;
+padding:10px;
+position:relative;
+}
+#section3{
+  background-color:brown;
+
+}
+@media screen and (max-width: 600px) {
+  #navbar {
